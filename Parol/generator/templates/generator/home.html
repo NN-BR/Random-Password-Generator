@@ -23,6 +23,7 @@
         <option value="14">14</option>
         <option value="15">15</option>
         <option value="16">16</option>
+        <option value="17">17</option>
     </select> Lenght
     <br>
     <input type="checkbox" name="uppercase"> Uppercase    <!--  кнопка выбора (галочка) -->
@@ -31,12 +32,16 @@
     <br>
     <input type="checkbox" name="special"> Special   <!--  кнопка выбора (галочка) -->
     <br>
-    <input type="submit" value="Generate Password" class="btn btn-primary"> <!-- выплывающее окно выбора -->
+
 
 </form>
 <form action="{% url 'in'%}">
-     <br>
+
+    <input type="submit" value="Generate Password" class="btn btn-secondary"> <!-- выплывающее окно выбора -->
+    <br>
+    <br>
     <input type="submit" value="Info about site" class="btn btn-success">
+    <br>
 </form>
 </div>
 </body>
